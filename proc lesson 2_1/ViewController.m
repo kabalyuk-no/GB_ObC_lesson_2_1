@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *imageCats;
 
 @end
 
@@ -16,7 +17,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    UIImage *image = [UIImage imageNamed:@"cats.jpg"];
+    
+  //  UIImageView *imageCats = [[UIImageView alloc] initWithImage:image ];
+    
+  //  UIImageView *imageCats = [[UIImageView alloc] init];
+
+    
+    self.imageCats.image = image ;
+    
+    self.imageCats.contentMode = UIViewContentModeScaleAspectFit;
+    
+    [self.view addSubview:self.imageCats ];
+
 }
 
 - (void)didReceiveMemoryWarning {

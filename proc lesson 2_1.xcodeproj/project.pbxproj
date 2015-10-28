@@ -15,6 +15,7 @@
 		04FC34CD1BE12E8C0079EF07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FC34CB1BE12E8C0079EF07 /* LaunchScreen.storyboard */; };
 		04FC34D81BE12E8C0079EF07 /* proc_lesson_2_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC34D71BE12E8C0079EF07 /* proc_lesson_2_1Tests.m */; };
 		04FC34E31BE12E8C0079EF07 /* proc_lesson_2_1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC34E21BE12E8C0079EF07 /* proc_lesson_2_1UITests.m */; };
+		04FC34F31BE13D600079EF07 /* cats.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04FC34F21BE13D600079EF07 /* cats.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		04FC34DE1BE12E8C0079EF07 /* proc lesson 2_1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "proc lesson 2_1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FC34E21BE12E8C0079EF07 /* proc_lesson_2_1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = proc_lesson_2_1UITests.m; sourceTree = "<group>"; };
 		04FC34E41BE12E8C0079EF07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FC34F21BE13D600079EF07 /* cats.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cats.jpg; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 		04FC34BD1BE12E8C0079EF07 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				04FC34F21BE13D600079EF07 /* cats.jpg */,
 				04FC34BE1BE12E8C0079EF07 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -245,6 +248,7 @@
 			files = (
 				04FC34CD1BE12E8C0079EF07 /* LaunchScreen.storyboard in Resources */,
 				04FC34CA1BE12E8C0079EF07 /* Assets.xcassets in Resources */,
+				04FC34F31BE13D600079EF07 /* cats.jpg in Resources */,
 				04FC34C81BE12E8C0079EF07 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,9 +416,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "proc lesson 2_1/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "GB.proc-lesson-2-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -423,9 +429,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "proc lesson 2_1/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "GB.proc-lesson-2-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
